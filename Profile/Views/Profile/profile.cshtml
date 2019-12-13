@@ -1,0 +1,59 @@
+﻿@model Profile.Models.ProfileModel
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Jacob Ramsey-Smith</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-mid">
+        <img class="profilePic" src="~/img/JacobProfilePhoto.jpg" />
+    </div>
+    <div class="col-mid-4">
+        <h5 class="link_list">Resume:</h5>
+        <a download="Jacob_Ramsey-Smith_Resume" href="~/additionalFiles/Jacob-Ramsey_Resume.pdf" class="big_font">Download</a>
+        <h5 class="link_list">Linkedn Profile:</h5>
+        <a href="https://www.linkedin.com/in/jacob-ramsey-smith-46a36014a" class="big_font">Linkedn</a>
+        <h5 class="link_list">Github Account:</h5>
+        <a href="https://github.com/PopeFrancisOrsonScottKey" class="big_font">Github</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-mid">
+        <h6>Autobiography</h6>
+        <p>
+           <span class="tab">Hi, I am Jacob Ramsey-Smith.<br /> I am from Marshalltown, IA. I lived there for 18 years before moving to Ames for school.</span>
+            Some activities I did while I was there would include: Band, Choir, Environthon, Boy Scouts, Cross Country, Tennis, Robotics Club, and IT Olympics.
+            In what little free time I had from those activites, I would usually hop on a video game such as DOTA 2 or maybe play some Magic: the Gathering with my friends.<br/>
+            <span class="tab">After moving to Ames and starting life at ISU I slowed down on the extracurriculars and focused more on school.</span> 
+            Eventually becoming more adjusted to the school life I joined a school coding club and the stock investment club.
+            It was around this time that I got my first co-op at Marshalltown Company. I worked there for the summer and fall of 2018.
+            Working there was a great expirience and I really got a good chance to extend my coding knowledge. A few projects I worked on
+            while I was there was developing a cookie policy page as well as informing the user that the site kept cookies. I also helped
+            set up the emailing system for their e-commerce site. It required implementing mail chimp (a 3rd party program
+            that helps businesses send out emails). I had to do this in a manner that was effective while intuitive so it
+            would fit into the new redesign of the streamlined e-commerce site.<br/>
+            <span class="tab">I also enjoyed working with the other interns they hired there and I set up a weekly lunch for us. It was a good way</span>
+            to get to know each other better and also a good chance to show them around Marshalltown a little bit.
+            This was also the fall that the tornado came through Marshalltown. My family and I were lucky enough to
+            hardly be affected by it. The Marshalltown Company building somehow hardly sustained any damage even
+            though it was only  about a block away from the tornado!. Some people at work had some damage done to
+            there home properties though. So the next day, everyone at work was encouraged to go help someone clean out their yards.
+        </p>
+        <p class="tab">
+
+        </p>
+       
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
