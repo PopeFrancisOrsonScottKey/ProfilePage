@@ -1,9 +1,17 @@
-﻿@{
+﻿@model Profile.Models.HomeModel
+@{
     ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Date: <span id="DateTime"></span></p>
-</div>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <form method="post">
+            <input name="InputText" type="text" />
+            <input type="submit" />
+        </form>
+        @if (Model.ResultText != null)
+        {
+            <p id="resultText"></p>
+        }
+        <p>Date: <span id="DateTime"></span></p>
+    </div>

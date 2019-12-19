@@ -10,3 +10,7 @@ function time() {
 } setInterval(time, 1000);
 
 window.onload = time();
+
+
+function loadJObject() {    
+}

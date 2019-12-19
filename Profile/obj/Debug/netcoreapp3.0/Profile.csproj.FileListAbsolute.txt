@@ -120,8 +120,12 @@ C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\Profile.dll
 C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\Profile.pdb
 C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\Profile.Views.dll
 C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\Profile.Views.pdb
-C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Profile.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Profile.Views.pdb
 C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Profile.dll
 C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Profile.pdb
 C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Razor\Views\Profile\profile.cshtml.g.cs
+C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\LinqToWiki.Generated.dll
+C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\IQToolkit.dll
+C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\LinqToWiki.Core.dll
+C:\Users\jrsrj\source\repos\Profile\Profile\bin\Debug\netcoreapp3.0\RestSharp.dll
+C:\Users\jrsrj\source\repos\Profile\Profile\obj\Debug\netcoreapp3.0\Profile.MvcApplicationPartsAssemblyInfo.cache
